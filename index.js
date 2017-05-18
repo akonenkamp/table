@@ -8,10 +8,10 @@ var states = [
 function displayStates() {
     var tbody = $('#states tbody');
     var props = ["name", "myRating", "deleteRow"];
-    $.each(states, function(i, movie) {
+    $.each(states, function(i, states) {
         var tr = $('<tr>');
         $.each(props, function(i, prop) {
-            $('<td>').html(movie[prop]).appendTo(tr);  
+            $('<td>').html(states[prop]).appendTo(tr);  
         });
         tbody.append(tr);
     });  
@@ -29,7 +29,7 @@ $(document).ready(function(){
         console.log(states);
         var tbody = $('#states tbody');
         tbody.empty();
-        displaystates();
+        displayStates();
         event.preventDefault();
     });
 });
