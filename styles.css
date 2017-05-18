@@ -1,0 +1,25 @@
+table{
+    padding: 3px;
+    border: 1px dotted pink;
+}
+
+th{
+    color: gray;
+}
+
+        .metaConfigTable td {
+            padding: 3px;
+            border: 1px solid gray;
+        }
+
+        .metaConfigTable th{
+            font-weight: bolder;
+            text-align: left;
+            padding: 3px;
+            border: 1px solid gray;
+        }
+
+        .metaConfigTable caption {
+            font-weight: bolder;
+            text-align: center;
+        }

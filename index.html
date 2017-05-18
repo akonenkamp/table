@@ -1,5 +1,38 @@
+<!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  
+    <head>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+         <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="index.js" type="text/javascript"></script> 
+    </head>
+    <body>
+        <button id="goodbutton">Add new state</button>
+        <br>
+        <br>
+        <div id="table">
+        <table id="states" class="metaConfigTable">
+            <thead>
+            <tr>
+                <th>State Visited</th>
+                <th>My Rating</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        </div>
+        <div id="form">
+            <form id="myForm">
+                State:<br>
+                <input type="text" name="name" value="State" id="newstate">
+                <br>
+                Rating:<br>
+                <input type="text" name="myRating" value="10" id="newrating">
+                <br><br>
+                <input type="submit" value="Submit" id="submit">
+            </form> 
+        </div>
+    </body>
 </html>
