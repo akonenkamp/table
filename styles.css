@@ -1,6 +1,11 @@
 table{
-    padding: 3px;
+  
     border: 1px dotted pink;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+
 }
 
 th{
@@ -23,3 +28,4 @@ th{
             font-weight: bolder;
             text-align: center;
         }
+
